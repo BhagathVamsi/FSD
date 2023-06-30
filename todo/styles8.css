@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #ff8080;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.task-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.add-task-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b3e6ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.task-container {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.task-item {
+  padding: 10px;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  cursor: move;
+}
+
+.task-text {
+  flex: 1;
+  color: #8080ff;
+  text-decoration: none;
+}
+
+.editButton,
+.deleteButton {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #80ff80;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.editButton:hover,
+.deleteButton:hover {
+  background-color: #b3ffb3;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
